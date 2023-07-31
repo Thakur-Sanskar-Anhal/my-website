@@ -45,6 +45,9 @@ a{
     display: inline-block;
 }
 
+ul{
+    list-style: none;
+}
 /* utility clases */
 
 .small-bold-text{
@@ -58,6 +61,20 @@ a{
     padding-inline: var(--padding-inline-section);
 }
 
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.hover-link{
+    color: var(--primary-text-color);
+}
+
+.hover-link:hover{
+    color:var(--accent-color)
+}
+
+/* top banner */
 .banner-text{
     color: white;
     padding: 15px 30px;
@@ -68,4 +85,24 @@ a{
     background-color: #4fb3d4;
     background-image: url(/assets/asset\ 32.png);
     background-size: 300px;
+}
+
+/* nav bar */
+
+.main-nav{
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.company-logo img{
+    width: 200px;
+}
+
+.nav-links{
+    flex-basis: 730px;
+}
+
+.nav-links ul{
+    justify-content: end;
+    gap: 40px;
 }
