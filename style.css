@@ -103,13 +103,13 @@ ul{
 }
 /* top banner */
 .banner-text{
-    color: white;
+    color: var(--primary-text-color);
     padding: 15px 30px;
     text-align: center;
 }
 
 .top-banner{
-    background-color: #4fb3d4;
+    background-color: #ffdd00;
     background-image: url(assets/asset\ 32.png);
     background-size: 300px;
 }
