@@ -169,7 +169,7 @@ header{
 
 /* accordian */
 .accordian{
-    margin-top: 40px;
+    margin: 30px var(--padding-inline-section) 0;
     max-width: 1000px;
 }
 
@@ -231,6 +231,7 @@ header{
     gap: 8px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 150px;
+    margin: 30px var(--padding-inline-section) 0;
 }
 
 .gallery-flex{
@@ -305,4 +306,23 @@ header{
     gap: 20px;
     max-width: 30%;
     text-align: center;
+}
+
+/* big-feature-section */
+
+.big-feature-section{
+    padding: 30px var(--padding-inline-section) 0;
+}
+
+.big-feature-container{
+    gap: 30px;
+}
+
+.feature-img img{
+    width: 100%;
+}
+
+.feature-description{
+    align-items: flex-start;
+    flex-direction: column;
 }
