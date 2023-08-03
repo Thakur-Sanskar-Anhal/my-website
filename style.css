@@ -392,3 +392,19 @@ footer{
     align-items: flex-start;
     justify-content: space-between;
 }
+
+/* sub-footer */
+
+.subfooter{
+    background-color: #1d69a3;
+    height: 50px;
+    color: whitesmoke;
+}
+
+.subfoot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+}
