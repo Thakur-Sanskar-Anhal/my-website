@@ -374,3 +374,21 @@ header{
     right: 20px;
     color: white;
 }
+
+/* footer */
+
+footer{
+    padding-block: 80px;
+    background-color: #ebf2fa;
+}
+
+.link-colum{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer-container{
+    align-items: flex-start;
+    justify-content: space-between;
+}
