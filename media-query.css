@@ -1,0 +1,39 @@
+/* media query for width <=768 */
+
+@media screen and (width<=1024px) {
+
+    h3{
+        size: 1.2rem;
+    }
+    
+    /* accordian */
+    .gallery-flex{
+        flex-direction: column;
+    }
+    .gallery{
+        width: 100%;
+        grid-auto-rows: 220px;
+    }
+    .boxes{
+        grid-column: span 3;
+    }
+
+    /* nav-bar */
+    .nav-toggle{
+        display: block;
+        margin-right: 20px ;
+    }   
+
+    .nav-links{
+        display: none;
+    }
+
+    /* examples-section */
+    .examples-area{
+        gap: 20px;
+    }
+    .examples-card{
+        width: calc(50% - 10px);
+        height: 200px;
+    }
+}
