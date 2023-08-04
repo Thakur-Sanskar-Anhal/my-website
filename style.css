@@ -110,6 +110,7 @@ ul{
     border-radius: 6px;
     font-weight: 700;
     padding: 12px 24px;
+    color: var(--primary-text-color) !important;
     transition: 0.2s ease-out;
 }
 
@@ -117,7 +118,9 @@ ul{
     border-color: var(--accent-color);
     color: var(--accent-color) !important;
 }
+
 /* top banner */
+
 .banner-text{
     color: var(--primary-text-color);
     padding: 15px 30px;
@@ -135,6 +138,7 @@ ul{
 .main-nav{
     margin-top: 20px;
     justify-content: space-between;
+    position: relative;
 }
 
 .company-logo img{
@@ -158,9 +162,9 @@ ul{
 
 /* header section */
 
-header{
+/* header{
     padding: 50px var(--padding-inline-section) 0;
-}
+} */
 
 .header-section{
     justify-content: center;
@@ -168,7 +172,7 @@ header{
 }
 
 .header-left{
-    max-width: 40vw;
+    width: 40%;
 }
 
 .header-left h1{
@@ -295,13 +299,16 @@ header{
 /* features-section */
 
 .features-section{
-    padding-top: 80px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 80px var(--padding-inline-section) 0;
+    background-image: url(assets/asset\ 34.svg);
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .features-header{
     text-align: center;
+    margin-bottom: 40px;
     /* padding: 80px 0 0; */
 }
 
@@ -312,19 +319,20 @@ header{
 .features-area{
     margin-top: 20px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
-    background-image: url(assets/asset\ 34.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    
 }
 
 .features-card{
     flex-direction: column;
     gap: 20px;
-    max-width: 30%;
+    width: 30%;
     text-align: center;
+}
+
+.features-card img{
+    width: 60px;
 }
 
 /* big-feature-section */

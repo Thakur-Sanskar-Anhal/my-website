@@ -1,7 +1,6 @@
-/* media query for width <=1024 */
+/* media query for 1024px */
 
 @media screen and (max-width: 1024px) {
-
     h3{
         size: 1.2rem;
     }
@@ -13,7 +12,26 @@
     }   
 
     .nav-links{
-        display: none;
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 40px;
+        transition: 0.2s ease-in-out;
+        box-shadow: 0, 0, 5px #012f56;
+    }
+
+    .nav-links.active{
+        left: 0;
+    }
+
+    .main-nav{
+        overflow: initial;
+    }
+
+    .nav-links ul{
+        flex-direction: column;
     }
 
     /* examples-section */
@@ -26,10 +44,12 @@
     }
 }
 
+
+
+
 /* media query for width <=768 */
 
 @media screen and (max-width: 768px) {
-    
     .primary-button{
         width: 100%;
     }
@@ -57,11 +77,15 @@
 
     /* features */
     .features-card{
-        max-width: calc(50%-10px);
+        min-width: 48%;
     }
 
     /* big-feature-section */
     .big-feature-container{
+        flex-direction: column;
+    }
+
+    #seccond-big-feature{
         flex-direction: column;
     }
 
@@ -75,5 +99,38 @@
 
     .link-colum{
         align-items: stretch;
+    }
+}
+
+
+
+
+/* media query for 425px */
+
+@media screen and (max-width: 425px) {
+    :root{
+        --padding-inline-section: 10px;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+   
+    .features-card{
+        width: 100%;
+    }
+
+    
+
+    .examples-card{
+        width: 100%;
     }
 }
