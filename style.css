@@ -93,6 +93,7 @@ ul{
 .primary-button{
     background-color: var(--accent-color);
     border-radius: 6px;
+    text-align: center;
     font-weight: 700;
     color: white !important;
     padding: 12px 24px;
@@ -186,6 +187,7 @@ header{
 .accordian{
     margin: 30px var(--padding-inline-section) 0;
     max-width: 1000px;
+    padding: 80px var(--padding-inline-section);
 }
 
 .accordian-section{
@@ -328,7 +330,7 @@ header{
 /* big-feature-section */
 
 .big-feature-section{
-    padding: 30px var(--padding-inline-section) 0;
+    padding: 80px var(--padding-inline-section) ;
 }
 
 .big-feature-container{
@@ -344,11 +346,20 @@ header{
     flex-direction: column;
 }
 
+#seccond-big-feature{
+    flex-direction: row-reverse;
+}
+
 /* examples-section */
+
+.examples-section{
+    margin: 80px var(--padding-inline-section);
+}
 
 .examples-header{
     flex-direction: column;
     gap: 20px;
+    text-align: center;
 }
 
 .examples-area{
