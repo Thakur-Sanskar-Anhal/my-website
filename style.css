@@ -254,7 +254,7 @@ header{
 .boxes:hover{
     background-position: center;
     background-color: rgba(255, 255, 255, 0);
-    box-shadow: 0 0 4px var(--secondary-text-color);
+    box-shadow: 0 0 20px var(--secondary-text-color);
 }
 
 /* companies-section */
@@ -407,4 +407,19 @@ footer{
     justify-content: center;
     gap: 10px;
     padding-top: 10px;
+}
+
+/* media query for width <=786px */
+
+@media screen and (width<=1024px) {
+    .gallery-flex{
+        flex-direction: column;
+    }
+    .gallery{
+        width: 100%;
+        grid-auto-rows: 220px;
+    }
+    .boxes{
+        grid-column: span 3;
+    }
 }
