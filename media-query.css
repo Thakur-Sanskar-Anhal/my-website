@@ -1,3 +1,9 @@
+/* media query for 1440px */
+
+@media screen and (max-width:1440px) {
+    
+}
+
 /* media query for 1024px */
 
 @media screen and (max-width: 1024px) {
@@ -127,8 +133,6 @@
     .features-card{
         width: 100%;
     }
-
-    
 
     .examples-card{
         width: 100%;
