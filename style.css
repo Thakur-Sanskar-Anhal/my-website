@@ -135,10 +135,18 @@ ul{
 
 /* nav bar */
 
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
 .main-nav{
-    margin-top: 20px;
+    padding: 10px;
     justify-content: space-between;
     position: relative;
+
 }
 
 .company-logo img{
